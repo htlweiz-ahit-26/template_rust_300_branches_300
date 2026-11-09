@@ -1,0 +1,19 @@
+
+{
+  "name": "Rust DevContainer",        
+  "image": "mcr.microsoft.com/devcontainers/rust:latest", 
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "usernamehw.errorlens",
+        "fill-labs.dependi",
+        "tamasfe.even-better-toml",
+        "rust-lang.rust-analyzer",
+        "webfreak.debug",
+        "ms-vscode.cpptools-extension-pack",
+        "-github.copilot-chat"
+      ]
+    }
+  }
+}

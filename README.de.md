@@ -1,0 +1,1 @@
+# Template für Rust Arbeitspakete

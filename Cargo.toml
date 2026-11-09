@@ -1,0 +1,18 @@
+[package]
+name = "template_rust_first_steps_100"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+assert_cmd = "2.2.2"
+walkdir = "2.5.0"
+
+[[bin]]
+name = "program00"
+path = "src/program00/main.rs"
+test = false
+
+[[bin]]
+name = "generateIOTest"
+path = "tests/common/generateIOTest.rs"
+test = false
