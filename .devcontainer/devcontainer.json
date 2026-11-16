@@ -14,7 +14,7 @@
         "ms-vscode.cpptools-extension-pack",
         "-github.copilot-chat"
       ]
-    }
+    },
     "coder": {
       "apps": [
         {
